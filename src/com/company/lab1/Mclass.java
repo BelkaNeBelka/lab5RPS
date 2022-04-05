@@ -322,6 +322,12 @@ public class Mclass {
         a.add(buttonSum);
 
 
+        JButton spravka = new JButton("Справка");
+        spravka .setBounds(180,350,90,30);
+        spravka.setVisible(false);
+        // p.add(buttonSum);
+        a.add(spravka);
+
 
         //proc2
         JCheckBox pointCheck = new JCheckBox("Изменения значения в заданной точке.");
